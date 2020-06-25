@@ -4,4 +4,4 @@ Searches for the electron EDM depend on the ability to perform spin precession m
 
 This software was written by myself and a graduate student at the University of Toronto to investigate the behavior of different excited molecules travelling through a magnetic field. 
 
-We were able to push into boundaries and investigate questions that had yet to be answered within the world of Quantum Optics.
+We were able to push into boundaries and investigate questions that had yet to be answered by physicists.

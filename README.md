@@ -1,4 +1,4 @@
-# PolyEDM-Project
+# PolyEDM
 
 We are building an experiment to search for the electron's electric dipole moment in laser-cooled and trapped polyatomic molecules.  These molecules offer robust systematic error rejection via internal co-magnetometer states, and provide a route to explore PeV-scale CP-violating physics.
 

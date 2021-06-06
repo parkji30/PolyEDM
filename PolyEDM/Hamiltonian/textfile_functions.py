@@ -116,4 +116,20 @@ def generator_to_list(gen):
     return temp_list
         
         
-## Testing
+def list_to_numpy_matrix(xdim, ydim, bvalues):
+    """
+    Converts a list of b field values into a xdim*ydim numpy matrix.
+    
+    @type xdim: List
+    @type ydimL List
+    @type bvalues: List
+    @rtype: numpy array
+    """
+    dim_list = []
+    for i in range(len(xdim)):
+        b_list = []
+        for j in range(len(ydim)):
+            b_list.append(bvalues.pop(0))
+        temp_np = np.array(b_list)
+        dim_list.append(temp_np)
+    return np.array(dim_list)

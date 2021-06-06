@@ -20,56 +20,7 @@ for i in range(len(x)):
             points.append((x[i], y[j], z[k]))
 
 
-## Analyzing Data
-def flatten_list(list,ignore_types=(str)): 
-    """
-    Takes a nested list of any dimension and recursively "flattens" it out 
-    into a 1 dimension list.
-    
-    @type list: List Object
-    @type ignore_types= (str): Ignores all string inputs
-    @rtype: None
-    """
-    for item in list:
-        if isinstance(item, Iterable) and not isinstance(item, ignore_types):
-            yield from flatten_list(item,ignore_types=(str))
-        else:
-            yield item
-            
-
-def generator_to_list(gen):
-    """
-    Converts an abstract generator object into a list containing the same 
-    elements as the generator.
-    
-    @type gen: Generator object
-    @rtype: List[items]
-    """
-    temp_list = []
-    for item in gen:
-        temp_list.append(item)
-    return temp_list
-    
-    
-def list_to_numpy_matrix(xdim, ydim, bvalues):
-    """
-    Converts a list of b field values into a xdim*ydim numpy matrix.
-    
-    @type xdim: List
-    @type ydimL List
-    @type bvalues: List
-    @rtype: numpy array
-    """
-    dim_list = []
-    for i in range(len(xdim)):
-        b_list = []
-        for j in range(len(ydim)):
-            b_list.append(bvalues.pop(0))
-        temp_np = np.array(b_list)
-        dim_list.append(temp_np)
-    return np.array(dim_list)
-
-##
+## Loading and Interpreting Textfile
     
 #Put in the name of your text file here.
 mag_values = load_txtfile_list("bnorm_actual.txt")
@@ -130,7 +81,3 @@ ax.set_ylabel("y [m]")
 ax.set_zlabel("|B| [T]")
 
 plt.show()
-
-
-
-

@@ -1,12 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  6 10:37:32 2019
 
-@author: Z0RA
-"""
 
-#%%
 import numpy as np
 from numpy import pi,sin,cos,tan,sqrt
 import matplotlib.pyplot as plt

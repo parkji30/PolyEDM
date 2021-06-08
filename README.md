@@ -7,7 +7,7 @@ Searches for the electron EDM depend on the ability to perform spin precession m
 In the Railgun folder, you will find my work done for simulation program that projects the trajector of individual molecules travelling through a molecular beam slower. You can adjust the number of molecules travelling by varying the input parameter. Here, we want to analyze how varying magnetic field strengths can be used to forcibly funnel chaotic molecules into a narrow path.
 
 In the Hamiltonian folder, you will find my work done for calculating the hamiltonian energy level of individual molecules that are travelling through a molecular beam slower.
-Here we wanted to calculate the total excitation level of indiviaul molecules in order to determine the strength of the cooling beam.
+Here we wanted to calculate the total excitation level of individual molecules in order to determine the strength of the cooling beam.
 
 # Running the Program
 In the <b>Beam Slowing</b> and <b>Hamiltonian</b> folders, simply type

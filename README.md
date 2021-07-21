@@ -12,9 +12,7 @@ In the Hamiltonian folder, you will find my work done for calculating the hamilt
 Here we wanted to calculate the total excitation level of individual molecules in order to determine the strength of the cooling beam.
 
 # Running the Program
-In the <b>Beam Slowing</b> and <b>Hamiltonian</b> folders, simply type
-
-python3 main.py in either folder in order to calculate the magnetic field strength and hamiltonian energy levels of super cooled molecules. You should obtain the following plots as shown below.
+In the <b>Beam Slowing</b> and <b>Hamiltonian</b> folders, simply type python3 main.py in either folder in order to calculate the magnetic field strength and hamiltonian energy levels of super cooled molecules. You should obtain the following plots as shown below.
 
 
 
